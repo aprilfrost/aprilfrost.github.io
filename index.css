@@ -1,0 +1,94 @@
+body {
+	background-color: #BEC4FD;
+	color: #406AB0;
+	font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+#header {
+	background-color: #427aba;
+	border-bottom: 4px solid #6D61BD;
+	color: white;
+}
+
+#phone {
+	text-align: right;
+	margin-top:20px;
+}
+
+#links {
+	padding: 0 40px 0 40px;
+	text-align: center;
+}
+
+#header a {
+	color: white;
+}
+
+#header a:active, #header a:hover {
+	color: rgb(237, 175, 205);
+	text-decoration: none;
+}
+
+#header li {
+	display: inline-block;
+	padding: 0 15px 0 15px;
+	font-size: large;
+}
+
+#welcome {
+	color: #000066;
+	background-color: #d1e0f2;
+	padding: 7px;
+	margin-top: 7px;
+}
+
+#welcome h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+#welcome p {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+#welcome img {
+	border: 5px solid white;
+	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.50);
+}
+
+#plaques {
+	margin-top: 15px;
+}
+
+#plaques h2 {
+	text-align: center;
+}
+
+#plaques p {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+#plaques img {
+	margin: 10px;
+	border: 2px solid white;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.50);
+}
+
+#footer {
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	font-size: 10px;
+	text-align: center;
+}
