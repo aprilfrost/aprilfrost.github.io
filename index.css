@@ -110,3 +110,32 @@ h2 {
 	color: #000066;
 	font-weight: bold;
 }
+
+#finePrint {
+	margin-top: 40px;
+	font-size: small;
+	padding: 0 40px 0 40px;
+}
+
+#contact {
+	color: #EDAFCD;
+	background-color: #406AB0;
+	border: 1px solid #2c4a7b;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 0 20px 20px 20px;
+}
+
+#contact h3 {
+	padding-bottom: 10px;
+}
+
+#contact label {
+	width: 75px;
+	margin-bottom: 15px;
+}
+
+#contact textarea {
+	margin-left: 80px;
+}
