@@ -1,13 +1,12 @@
 <form action="//formspree.io/bkuker@billkuker.com" id="contact" method="post">
 	<h3>Request Information</h3>
-	<input type="text" name="_gotcha" style="display: none" />
 
 	<label for="name">Name:</label>
 	<input type="text" name="name" id="name">
 	<br>
 
-	<label for="_replyto">Email:</label>
-	<input type="email" name="_replyto" id="_replyto">
+	<label for="email">Email:</label>
+	<input type="email" name="email" id="email">
 	<br>
 
 	<label for="phone">Phone:</label>
@@ -15,8 +14,11 @@
 	<br>
 
 	<label for="body">Request:</label>
-	<br>
 	<textarea name="body"></textarea>
 	<br>
+
+	<input type="text" name="_gotcha" style="display: none" />
+	<input type="hidden" name="_next" value="//www.aprilsart.com/thanks.html" />
+
 	<input type="submit" value="Send">
 </form>
