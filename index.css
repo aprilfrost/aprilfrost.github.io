@@ -136,3 +136,7 @@ h2 {
 	width: 75px;
 	margin-bottom: 15px;
 }
+
+#contact textarea {
+	margin-left: 80px;
+}
